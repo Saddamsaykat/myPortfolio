@@ -4,6 +4,7 @@ import Banner from "./Main/Banner/Banner";
 import Exprience from "./Main/Exprience/Exprience";
 import Education from "./Main/Education/Education";
 import Footer from "./Footer/Footer";
+import Certificate from "./Main/Certificate/Certificate";
 
 const Component = () => {
     return (
@@ -12,6 +13,7 @@ const Component = () => {
             <Banner></Banner>
             <Exprience></Exprience>
             <Education></Education>
+            <Certificate></Certificate>
             <Outlet></Outlet>
             <Footer></Footer>
         </div>
