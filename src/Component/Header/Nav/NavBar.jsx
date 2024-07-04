@@ -23,11 +23,7 @@ const NavBar = () => {
       </NavLink>
     </li>
 
-    <li>
-      <NavLink to="/" activeClassName="active" className="nav-link">
-        Download CV
-      </NavLink>
-    </li>
+  
   </>
 
 
