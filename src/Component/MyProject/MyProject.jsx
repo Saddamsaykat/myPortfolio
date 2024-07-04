@@ -6,7 +6,7 @@ const MyProject = () => {
     
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch("../../../public/Realstate.json");
+            const response = await fetch('https://my-portfolio-pi-beige-66.vercel.app/liveLink');
             const dataValue = await response.json();
             setData(dataValue);
         };
