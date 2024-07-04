@@ -6,6 +6,7 @@ import Education from "./Main/Education/Education";
 import Footer from "./Footer/Footer";
 import Certificate from "./Main/Certificate/Certificate";
 import Subscribe from "./Subscribe/Subscribe";
+import MyProject from "./MyProject/MyProject";
 
 const Component = () => {
     return (
@@ -15,6 +16,7 @@ const Component = () => {
             <Exprience></Exprience>
             <Education></Education>
             <Certificate></Certificate>
+            <MyProject></MyProject>
             <Subscribe></Subscribe>
             <Outlet></Outlet>
             <Footer></Footer>
