@@ -1,0 +1,23 @@
+@keyframes borderAnimation {
+    0% {
+      border-color: transparent transparent transparent red;
+    }
+    50% {
+      border-color: transparent  blue green;
+    }
+    100% {
+      border-color: red transparent transparent transparent;
+    }
+  }
+  
+  .animated-border {
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .animated-border:focus {
+    animation: borderAnimation 1s linear infinite;
+  }
+  
